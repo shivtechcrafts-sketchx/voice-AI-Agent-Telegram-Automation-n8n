@@ -1,5 +1,6 @@
 # voice-AI-Agent-Telegram-Automation-n8n
 
+![WhatsApp Image 2025-12-22 at 11 02 59 PM](https://github.com/user-attachments/assets/f7f801cf-8bfb-475c-86c6-d1b231f0af1c)
 
 🎥 Demo (Proof of Work)
 https://drive.google.com/file/d/1H4taVKy4s_FNKvQS6sj2ww83GXfn2gI2/view?usp=sharing
