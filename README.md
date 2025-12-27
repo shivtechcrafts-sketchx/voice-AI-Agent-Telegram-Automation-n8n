@@ -1,3 +1,5 @@
+# 🔊 Voice AI Agent for Telegram (n8n Automation)
+
 # <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=700&color=00E5FF&center=true&vCenter=true&width=1000&lines=Voice+AI+Agent+for+Telegram;Built+with+n8n+Automation;Text+to+Speech+%7C+Event+Driven+AI;Production+Ready+Workflow" />
 </p>
@@ -13,11 +15,6 @@ https://drive.google.com/file/d/1H4taVKy4s_FNKvQS6sj2ww83GXfn2gI2/view?usp=shari
 
 ---
 
-# 🔊 Voice AI Agent for Telegram (n8n Automation)
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=700&color=00E5FF&center=true&vCenter=true&width=1000&lines=Voice+AI+Agent+for+Telegram;Built+with+n8n+Automation;Text+to+Speech+%7C+Event+Driven+AI;Production+Ready+Workflow" />
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Automation-n8n-ff6d00?style=for-the-badge" />
