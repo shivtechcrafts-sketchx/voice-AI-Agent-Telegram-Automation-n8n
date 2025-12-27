@@ -1,4 +1,6 @@
-# voice-AI-Agent-Telegram-Automation-n8n
+# <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=700&color=00E5FF&center=true&vCenter=true&width=1000&lines=Voice+AI+Agent+for+Telegram;Built+with+n8n+Automation;Text+to+Speech+%7C+Event+Driven+AI;Production+Ready+Workflow" />
+</p>
 
 ![WhatsApp Image 2025-12-22 at 11 02 59 PM](https://github.com/user-attachments/assets/f7f801cf-8bfb-475c-86c6-d1b231f0af1c)
 
@@ -11,194 +13,194 @@ https://drive.google.com/file/d/1H4taVKy4s_FNKvQS6sj2ww83GXfn2gI2/view?usp=shari
 
 ---
 
-🔊 Voice AI Agent for Telegram (n8n Automation)
+# 🔊 Voice AI Agent for Telegram (n8n Automation)
 
-📌 Project Summary
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=700&color=00E5FF&center=true&vCenter=true&width=1000&lines=Voice+AI+Agent+for+Telegram;Built+with+n8n+Automation;Text+to+Speech+%7C+Event+Driven+AI;Production+Ready+Workflow" />
+</p>
 
-This project demonstrates my ability to design and deploy real-world AI automations using n8n.
+<p align="center">
+  <img src="https://img.shields.io/badge/Automation-n8n-ff6d00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Telegram-Bot-229ED9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-Text--to--Speech-00e5ff?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Workflow-Event--Driven-success?style=for-the-badge" />
+</p>
 
-I built an AI-powered Voice Assistant that integrates with Telegram to:
-
-Read unread messages
-
-Convert text messages into voice responses
-
-Send voice replies back to users
-
-Trigger email notifications for unread messages
-
-
-The focus of this project is automation architecture, API integration, and AI workflow orchestration — not just theory.
-
+<p align="center">
+  <img src="screenshots/telegram-demo.gif" width="70%" alt="Telegram Voice AI Demo" />
+</p>
 
 ---
 
-🎯 Why This Project Matters 
+## 🚀 Project Overview
 
-This project showcases:
+This project demonstrates a **real-world Voice AI Automation system** built using **n8n** and the **Telegram Bot API**.
 
-✅ Practical automation (not toy scripts)
+It listens to Telegram messages, processes them using AI, converts responses into **voice messages**, and sends them back automatically. If messages remain unread, the system escalates via **email notifications**.
 
-✅ Event-driven workflows
-
-✅ API integrations (Telegram, Email, AI/TTS)
-
-✅ Production-style credential handling
-
-✅ Real user-facing output (voice + messaging)
-
-
-This is the kind of system used in customer support bots, accessibility tools, and notification agents.
-
+This repository reflects **production-style automation architecture**, not a toy or tutorial workflow.
 
 ---
 
-🧠 What I Built (Core Capabilities)
+## 🎯 Why This Project Matters
 
-Telegram Bot Listener
+✅ Designed like real automation used in companies
+✅ Event-driven (no manual triggers)
+✅ Multiple APIs orchestrated cleanly
+✅ Secure credential handling (no secrets in code)
+✅ Human-facing output (voice replies)
 
-Detects incoming and unread messages
+Typical real-world use cases:
 
-
-AI Voice Generation
-
-Converts text → speech using AI services
-
-
-Bidirectional Communication
-
-Sends voice replies back to Telegram
-
-
-Email Automation
-
-Sends alerts when messages remain unread
-
-
-Fully Automated Workflow
-
-Runs without manual intervention once activated
-
-
-
+* Customer support voice bots
+* Accessibility assistants
+* Alert & monitoring agents
 
 ---
 
-🛠️ Tech Stack
+## 🧠 Core Capabilities
 
-Component	Technology
+### 🤖 Telegram Bot Listener
 
-Automation Engine	n8n
-Messaging	Telegram Bot API
-AI / Voice	Text-to-Speech (TTS) AI
-Notifications	Email (SMTP/Gmail)
+* Receives incoming Telegram messages
+* Identifies unread messages
 
-
-
----
-
-🏗️ System Architecture (High-Level)
-
-1. Telegram message received
-
-
-2. n8n webhook triggers workflow
-
-
-3. Message status checked (read / unread)
-
-
-4. Text processed by AI → voice
-
-
-5. Voice message sent to Telegram
-
-
-6. Unread messages trigger email alerts
-
-
-
-This architecture is modular, extensible, and production-friendly.
-
+<p align="center">
+  <img src="screenshots/telegram-input.png" width="80%" />
+</p>
 
 ---
 
-📂 Repository Structure
+### 🔊 AI Voice Generation
 
+* Processes text using AI
+* Converts responses into natural voice output
+
+<p align="center">
+  <img src="screenshots/tts-node.png" width="80%" />
+</p>
+
+---
+
+### 🔁 Bidirectional Communication
+
+* Text input → Voice output
+* Voice message delivered back to Telegram automatically
+
+<p align="center">
+  <img src="screenshots/telegram-voice-output.gif" width="70%" />
+</p>
+
+---
+
+### 📧 Email Automation
+
+* Sends email alerts if messages remain unread
+* Useful for monitoring and escalation
+
+<p align="center">
+  <img src="screenshots/email-alert.png" width="80%" />
+</p>
+
+---
+
+### ⚙️ Fully Automated Workflow
+
+* Runs continuously once activated
+* No human intervention required
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer             | Technology              |
+| ----------------- | ----------------------- |
+| Automation Engine | n8n                     |
+| Messaging         | Telegram Bot API        |
+| AI / Voice        | Text-to-Speech (TTS AI) |
+| Notifications     | Email (SMTP / Gmail)    |
+
+---
+
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="screenshots/architecture-diagram.png" width="85%" />
+</p>
+
+```text
+Telegram Message
+      ↓
+ n8n Webhook Trigger
+      ↓
+ Message Status Check
+      ↓
+ AI Text Processing
+      ↓
+ Text → Voice (TTS)
+      ↓
+ Telegram Voice Reply
+      ↓
+ (If Unread) → Email Alert
+```
+
+Modular, extensible, and production-friendly.
+
+---
+
+## 📂 Repository Structure
+
+```text
 📦 voice-ai-telegram-agent
  ┣ 📜 workflow.json        # Exported n8n workflow
- ┣ 📸 screenshots/         # Workflow & execution screenshots
+ ┣ 📸 screenshots/         # UI, nodes & execution demos
  ┣ 📄 README.md            # Documentation
-
+```
 
 ---
 
-⚙️ Setup & Usage
+## ⚙️ Setup & Usage
 
-1. Clone the repository
-
-
-2. Import workflow.json into n8n
-
-
+1. Clone this repository
+2. Import `workflow.json` into **n8n**
 3. Configure credentials:
 
-Telegram Bot Token
-
-AI / TTS API Key
-
-Email SMTP credentials
-
-
-
+   * Telegram Bot Token
+   * AI / TTS API Key
+   * Email SMTP credentials
 4. Activate the workflow
 
-
-
-> ⚠️ API keys are intentionally excluded for security reasons
-
-
-
+⚠️ API keys are intentionally excluded for security reasons
 
 ---
 
-📸 Screenshots
+## 🔒 Security & Best Practices
 
-Workflow and execution screenshots are available in the /screenshots folder to clearly show:
-
-Node configuration
-
-Data flow
-
-Output messages
-
-
+* No secrets committed to GitHub
+* Uses n8n credential manager
+* Telegram privacy mode enabled
+* Clean separation of logic & credentials
 
 ---
 
-🔒 Security & Best Practices
+## 📈 Future Enhancements
 
-No credentials committed to the repository
-
-Uses n8n credential management
-
-Bot privacy mode handled correctly
-
-
-This follows basic production hygiene, not hobby-level shortcuts.
-
+* WhatsApp voice automation
+* Automatic language detection
+* Priority-based message routing
+* Analytics dashboard for message insights
 
 ---
 
-📈 Possible Extensions (Future Scope)
+## 👤 Author
 
-WhatsApp integration
+**Shiv**
+Automation Engineer • AI Agents • Workflow Orchestration
 
-Voice language detection
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,nodejs,python,telegram,github" />
+</p>
 
-Priority-based message handling
+---
 
-Dashboard for message analytics
-
-
-
+⭐ If you care about real automation and AI systems, star this repository.
