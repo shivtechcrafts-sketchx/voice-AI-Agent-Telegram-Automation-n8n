@@ -1,6 +1,5 @@
 # voice-AI-Agent-Telegram-Automation-n8n
 
-.
 
 🎥 Demo (Proof of Work)
 https://drive.google.com/file/d/1H4taVKy4s_FNKvQS6sj2ww83GXfn2gI2/view?usp=sharing
